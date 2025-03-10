@@ -16,26 +16,26 @@
                 <div>
                     <h5 class="footer-title text-xl text-primary mb-4">Company</h5>
                     <ul class="space-y-2">
-                        <li><a href="{{ route('contributor') }}" class="text-light-text hover:text-primary">Become a contributor</a></li>
-                        <li><a href="{{ route('terms') }}" class="text-light-text hover:text-primary">Terms and Conditions</a></li>
-                        <li><a href="{{ route('privacy') }}" class="text-light-text hover:text-primary">Privacy policy</a></li>
+                        <li><a href="#" class="text-light-text hover:text-primary">Become a contributor</a></li>
+                        <li><a href="#" class="text-light-text hover:text-primary">Terms and Conditions</a></li>
+                        <li><a href="#" class="text-light-text hover:text-primary">Privacy policy</a></li>
                     </ul>
                 </div>
 
                 <div>
                     <h5 class="footer-title text-xl text-primary mb-4">Pricing and Plans</h5>
                     <ul class="space-y-2">
-                        <li><a href="{{ route('pricing.individual') }}" class="text-light-text hover:text-primary">Individual Plan</a></li>
-                        <li><a href="{{ route('pricing.company') }}" class="text-light-text hover:text-primary">Company Plan</a></li>
-                        <li><a href="{{ route('subscriptions') }}" class="text-light-text hover:text-primary">Subscriptions</a></li>
+                        <li><a href="#" class="text-light-text hover:text-primary">Individual Plan</a></li>
+                        <li><a href="#" class="text-light-text hover:text-primary">Company Plan</a></li>
+                        <li><a href="#" class="text-light-text hover:text-primary">Subscriptions</a></li>
                     </ul>
                 </div>
 
                 <div>
                     <h5 class="footer-title text-xl text-primary mb-4">Customer Support</h5>
                     <ul class="space-y-2">
-                        <li><a href="{{ route('contact') }}" class="text-light-text hover:text-primary">Contact Us</a></li>
-                        <li><a href="{{ route('faq') }}" class="text-light-text hover:text-primary">FAQs</a></li>
+                        <li><a href="#" class="text-light-text hover:text-primary">Contact Us</a></li>
+                        <li><a href="#" class="text-light-text hover:text-primary">FAQs</a></li>
                     </ul>
                 </div>
             </div>
