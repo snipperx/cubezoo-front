@@ -1,12 +1,29 @@
-@import 'tailwindcss';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
-@source '../../storage/framework/views/*.php';
-@source "../**/*.blade.php";
-@source "../**/*.js";
-@source "../**/*.vue";
+@layer components {
+    .btn-yellow {
+        @apply bg-primary text-darker-bg font-bold py-2 px-4 rounded hover:bg-yellow-500 transition duration-300;
+    }
 
-@theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+    .btn-outline-light {
+        @apply border border-light-text text-light-text py-2 px-4 rounded hover:bg-light-text hover:text-darker-bg transition duration-300;
+    }
+
+    .category-btn {
+        @apply bg-gray-btn text-light-text rounded-full py-1 px-3 text-sm m-1 hover:bg-primary hover:text-darker-bg transition duration-300;
+    }
+
+    .feature-badge {
+        @apply bg-transparent border border-light-text rounded-full py-1 px-3 text-xs mr-2;
+    }
+
+    .search-box {
+        @apply bg-white bg-opacity-10 rounded flex items-center px-4 py-2 my-6;
+    }
+
+    .footer-title {
+        @apply text-primary font-bold mb-4;
+    }
 }
